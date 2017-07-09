@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: GefPractice Plug-in
+Bundle-SymbolicName: GefPractice;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: com.example.GefPracticePlugin
+Require-Bundle: org.eclipse.jface.text,
+ org.eclipse.ui.editors,
+ org.eclipse.core.resources,
+ org.eclipse.gef,
+ org.eclipse.ui,
+ org.eclipse.ui.ide,
+ org.eclipse.core.runtime,
+ org.eclipse.core.runtime.compatibility,
+ org.eclipse.ui.views
+ 
+Bundle-ClassPath: GefPractice.jar
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-ActivationPolicy: lazy
